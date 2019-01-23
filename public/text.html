@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Words to you</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <style>
+.inv {
+    display: none;
+}
+    </style>
+    <body>
+        <div id="begin"><p>Select the text you wish to read from the dropdown.</p></div>
+        <div id="selectback">
+        <select id="target">
+          <option selected disabled>Select from here</option>
+            <option value="content_1">About Lobbyism</option>
+            <option value="content_2">My goals</option>
+        <select>
+            </div>
+<div id="cont">
+        <div id="content_1" class="inv"><p>Hello, I have created this website to make an attempt to spread awareness. I regularly talk to people to try to get an idea of what the masses think is wrong with the government. Most people know they have problems with the way things are, but a lack of knowledge about why seems to be a theme. So here we are, this page is dedicated to sharing information about wrong-doings. My hopes are that if you learn anything by clicking on this link that interests you, the interest you have in relevant topics will rise and you will begin deeper personal research about all the things that should not be so.</p></div>
+        <div id="content_2" class="inv"><p>Lobbyism is when an important political figure is paid to sign a bill which benefits a lobbyist. This is not a criminal action (according to the law). So many corrupt things are happening behind the scenes every day which lead to problematic circumstances for the rest of us. Examples of lobbyism having an effect on your daily life are abundant. A prominant one is your food, your water, corners being cut to save money thanks to some shady behavior. The daily poisoning of millions is happening right now. Some things sold today would never have reached the consumer shelves if it weren't for a big payout. There is much to it all, and lobbyism in food is only one part of a massive collective problem. Should something be done? Only if you care about the well-being of the people around you and yourself. People still have power and if a decent internet audience is gathered in the future, I would like to take steps to creating a large-scale online communication board, making a petition, then bill, to plant the seed of making lobbyism illegal. This, with the help of so many, would be an effective way to make a ripple whilst maintaining peace.</p></div>
+        <div id="content_3" class="inv">Content 3</div>
+    </div>
+        <script>
+            document
+                .getElementById('target')
+                .addEventListener('change', function () {
+                    'use strict';
+                    var vis = document.querySelector('.vis'),
+                        target = document.getElementById(this.value);
+                    if (vis !== null) {
+                        vis.className = 'inv';
+                    }
+                    if (target !== null ) {
+                        target.className = 'vis';
+                    }
+            });
+        </script>
+        <div class="home">
+          <audio controls>
+            <source src="zombie.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        <p><a href="index.html">Click back to homepage</a></p>
+      </div>
+    </body>
+</html>

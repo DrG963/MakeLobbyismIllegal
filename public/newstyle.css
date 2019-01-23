@@ -1,0 +1,166 @@
+html {
+    background-color: black;
+    height:100%;
+    width:100%;
+    z-index:-1;
+  }
+  body {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height:100%;
+    width:100%;
+    z-index:0;
+  }
+
+
+  a {
+      text-decoration: none;
+  }
+  a:hover   {
+    /* Applies to links under the pointer */
+    text-decoration:  underline;
+    color:            #fff;
+  }
+  #toggle {
+    position:absolute;
+    height:10%;
+    width:10%;
+    text-align: center;
+    justify-content: center;
+    left:0%;
+    bottom:20%;
+    background-color:purple;
+    color:black;
+    overflow: hidden;
+  }
+  #toggle a {
+    color:black;
+  }
+  #music {
+    position:fixed;
+    bottom:0%;
+    left:20%;
+    width:60%;
+    height:10%;
+  }
+  #music iframe {
+      color:green;
+      height:100%;
+      width:100%;
+       }
+
+  #s1 {
+      position: fixed;
+      height:20%;
+      width:20%;
+      background-color: rgba(0, 100, 0, 0.438);
+      left:0%;
+      top:0%;
+      color:white;
+  }
+  #s1 a{
+    position: fixed;
+    height:20%;
+    width:20%;
+    left:0%;
+    top:6%;
+    text-align: center;
+    color:white;
+}
+  #s2 {
+    position: fixed;
+    height:20%;
+    width:20%;
+      background-color: rgba(99, 13, 27, 0.541);
+      right:0%;
+      top:0%;
+}
+#s2 a{
+    position: fixed;
+    height:20%;
+    width:20%;
+      top:6%;
+      right:0%;
+      text-align: center;
+     color:white;
+}
+#s3 {
+    position: fixed;
+    height:20%;
+    width:20%;
+      background-color: rgba(39, 21, 73, 0.420);
+      bottom:0%;
+      left:0%;
+
+}
+#s3 a{
+    position: fixed;
+    height:20%;
+    width:20%;
+      top:88%;
+      left:0%;
+      text-align: center;
+     color:white;
+}
+#s4 {
+    position: fixed;
+    height:20%;
+    width:20%;
+      background-color: rgba(229, 255, 0, 0.514);
+      right:0%;
+      bottom:0%;
+}
+#s4 a{
+    position: fixed;
+    height:20%;
+    width:20%;
+      top:81%;
+      right:0%;
+      text-align: center;
+     color:black;
+}
+
+#hello {
+  height:10%;
+  width:40%;
+  position: fixed;
+  left:30%;
+  top:2%;
+}
+#hello img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#shareme {
+  position: fixed;
+  top:65%;
+}
+#shareme iframe {
+  top:65%;
+}
+#thisback {
+  position:absolute;
+  width:60%;
+  height:60%;
+  left:20%;
+  top:20%;
+}
+#thisback img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+
+
+}

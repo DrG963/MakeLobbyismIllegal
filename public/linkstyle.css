@@ -1,0 +1,56 @@
+#half1 {
+    position: fixed;
+    height:90%;
+    width:50%;
+    left:0%;
+    top:0%;
+    background-color:darkmagenta;
+}
+#half2 {
+    position: fixed;
+    height:90%;
+    width:50%;
+    left:50%;
+    top:0%;
+    background-color:darkblue;
+}
+
+#half1 a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+#half2 a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+#half2 li{
+    color:white;
+}
+.h2ul {
+    color:white;
+}
+#half1 a:hover{
+    color:black;
+    text-decoration: underline;
+}
+#half2 a:hover{
+    color:white;
+    text-decoration: underline;
+}
+#home {
+    position: fixed;
+    height:10%;
+    width:100%;
+    background-color:black;
+    left:0%;
+    top:90%;
+}
+#home p{
+    color:white;
+    font-size: 120%;
+    text-align: center;
+}
+#home p:hover{
+    background-color:darkgreen;
+}

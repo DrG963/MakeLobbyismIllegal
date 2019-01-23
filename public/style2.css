@@ -1,0 +1,101 @@
+#begin {
+    height: 15%;
+    width:100%;
+    position: fixed;
+background-color: darkred;
+text-align: center;
+left: 0%;
+right: 0%;
+top:0%;
+}
+#begin p {
+    font-size: 166%;
+}
+#selectback {
+    position: fixed;
+    top:15%;
+    left: 0%;
+    height:5%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+}
+#target {
+    position: fixed;
+    left:40%;
+}
+#cont {
+    position: fixed;
+    top:20%;
+    text-align: center;
+    height:70%;
+    width: 100%;
+    background-color: darkmagenta;
+    left:0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#content_1 {
+    background-color: rgb(8, 134, 56);
+    position: fixed;
+    top:20%;
+    text-align: center;
+    height:70%;
+    width: 100%;
+    left:0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#content_2 {
+    background-color: rgb(60, 30, 109);
+    position: fixed;
+    top:20%;
+    text-align: center;
+    height:70%;
+    width: 100%;
+    left:0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#content_3 {
+    background-color: rgb(25, 108, 141);
+    position: fixed;
+    top:20%;
+    text-align: center;
+    height:70%;
+    width: 100%;
+    left:0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home {
+    height:10%;
+    width:100%;
+    position: fixed;
+    top:90%;
+    left:0%;
+    background-color: black;
+}
+.home p {
+  width:20%;
+  left:40%;
+  position:relative;
+  text-align: center;
+}
+.home audio {
+  position: absolute;
+  width:30%
+  left:15%;
+  height:90%;
+}
